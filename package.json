@@ -1,0 +1,13 @@
+{
+  "name": "remove-twitter-view-count",
+  "version": "1.0.1",
+  "description": "Browser extension to remove the view count from tweets",
+  "main": "bundler.js",
+  "author": "Luca Voges",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build:chrome": "node bundler.js chrome",
+    "build:firefox": "node bundler.js firefox"
+  }
+}
